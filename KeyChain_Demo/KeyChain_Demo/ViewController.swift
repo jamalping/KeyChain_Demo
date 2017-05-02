@@ -21,6 +21,8 @@ class ViewController: UIViewController {
             print(String.init(data: a, encoding: .utf8) ?? "默认")
             
             print(XYJKeyChain.delete(key: XYJKeyChain.key, userId: "userid\(i)"))
+            
+            
         }
     }
 }
